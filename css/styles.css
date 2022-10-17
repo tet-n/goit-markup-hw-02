@@ -15,6 +15,7 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
+  --tertiary-bg-color: #2f303a;
 }
 
 .list {
@@ -84,12 +85,17 @@ body {
 }
 
 /* Hero */
+
+.hero {
+  background-color: var(--tertiary-bg-color);
+  text-align: center;
+}
+
 .hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -98,7 +104,10 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
   border-style: none;
+  border-radius: 4px;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -111,7 +120,7 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -122,7 +131,7 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.36x;
+  line-height: 1.36;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -137,6 +146,11 @@ body {
 
 .section-team {
   background-color: var(--secondary-bg-color);
+}
+
+.item-team {
+  background-color: var(--primary-bg-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .title-team {
@@ -154,6 +168,17 @@ body {
 }
 
 /* Підвал */
+.footer {
+  background-color: var(--tertiary-bg-color);
+}
+
+.footer .logo {
+  color: var(--accent-color);
+}
+
+.footer .logo-accent {
+  color: #ffffff;
+}
 
 .address-footer {
   color: #ffffff;
@@ -184,6 +209,8 @@ body {
   background-color: #f5f4fa;
   border-style: none;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
