@@ -119,6 +119,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: #188ce8;
+}
+
 /* Секції */
 
 .section-title {
